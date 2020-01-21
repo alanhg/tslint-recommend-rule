@@ -145,7 +145,7 @@
       }
     ],
     "ordered-imports": [
-      false
+      true
     ],
     "curly": [
       true,
