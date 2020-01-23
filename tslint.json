@@ -9,19 +9,61 @@
     "object-literal-sort-keys": false
   },
   "rules": {
-    "jsx-no-lambda": false,
+    "array-bracket-spacing": [
+      false
+    ],
+    "arrow-parens": [
+      true,
+      "ban-single-arg-parens"
+    ],
+    "arrow-return-shorthand": [
+      true
+    ],
+    "ban-types": [
+      true,
+      [
+        "Object",
+        "Use {} instead."
+      ]
+    ],
+    "binary-expression-operand-order": true,
+    "brace-style": [
+      true,
+      "1tbs",
+      {
+        "allowSingleLine": true
+      }
+    ],
     "class-name": true,
     "comment-format": [
       true,
       "check-space"
     ],
+    "curly": [
+      true,
+      "ignore-same-line"
+    ],
+    "cyclomatic-complexity": [
+      true,
+      40
+    ],
     "eofline": true,
     "forin": true,
+    "import-spacing": true,
     "indent": [
       true,
       "spaces",
       2
     ],
+    "interface-name": false,
+    "jsx-alignment": false,
+    "jsx-boolean-value": [
+      true,
+      "never"
+    ],
+    "jsx-no-lambda": false,
+    "jsx-no-multiline-js": false,
+    "jsx-space-before-trailing-slash": true,
     "label-position": true,
     "max-line-length": [
       true,
@@ -35,6 +77,9 @@
     ],
     "no-arg": true,
     "no-bitwise": false,
+    "no-consecutive-blank-lines": [
+      true
+    ],
     "no-console": [
       true,
       "log",
@@ -49,11 +94,32 @@
     "no-duplicate-variable": true,
     "no-empty": false,
     "no-eval": true,
+    "no-implicit-dependencies": [
+      false,
+      "dev"
+    ],
     "no-inferrable-types": [
+      true
+    ],
+    "no-invalid-this": [
+      true
+    ],
+    "no-magic-numbers": false,
+    "no-multi-spaces": [
       true
     ],
     "no-shadowed-variable": true,
     "no-string-literal": false,
+    "no-submodule-imports": [
+      true,
+      "app",
+      "uuid/v4",
+      "@fortawesome",
+      "lodash",
+      "redux-saga/effects",
+      "antd",
+      "@lenovo"
+    ],
     "no-switch-case-fall-through": true,
     "no-trailing-whitespace": true,
     "no-unused-expression": [
@@ -61,10 +127,11 @@
       "allow-fast-null-checks"
     ],
     "no-var-keyword": true,
-    "no-implicit-dependencies": [
-      false,
-      "dev"
+    "object-curly-spacing": [
+      true,
+      "always"
     ],
+    "object-literal-shorthand": true,
     "object-literal-sort-keys": false,
     "one-line": [
       true,
@@ -73,6 +140,10 @@
       "check-else",
       "check-whitespace"
     ],
+    "ordered-imports": [
+      true
+    ],
+    "prefer-const": true,
     "quotemark": [
       true,
       "single",
@@ -84,6 +155,38 @@
       true,
       "always",
       "ignore-bound-class-methods"
+    ],
+    "space-before-function-paren": [
+      true,
+      {
+        "named": "never",
+        "asyncArrow": "always"
+      }
+    ],
+    "space-in-parens": [
+      true,
+      "never"
+    ],
+    "switch-default": true,
+    "ter-arrow-body-style": [
+      true
+    ],
+    "ter-func-call-spacing": [
+      true,
+      "never"
+    ],
+    "ter-no-irregular-whitespace": [
+      true
+    ],
+    "ter-no-sparse-arrays": [
+      true
+    ],
+    "trailing-comma": [
+      true,
+      {
+        "multiline": "never",
+        "singleline": "never"
+      }
     ],
     "triple-equals": [
       true,
@@ -116,110 +219,7 @@
       "check-type",
       "check-typecast",
       "check-preblock"
-    ],
-    "prefer-const": true,
-    "arrow-parens": [
-      true,
-      "ban-single-arg-parens"
-    ],
-    "arrow-return-shorthand": [
-      true
-    ],
-    "import-spacing": true,
-    "no-consecutive-blank-lines": [
-      true
-    ],
-    "object-literal-shorthand": true,
-    "space-before-function-paren": [
-      true,
-      {
-        "named": "never",
-        "asyncArrow": "always"
-      }
-    ],
-    "trailing-comma": [
-      true,
-      {
-        "multiline": "never",
-        "singleline": "never"
-      }
-    ],
-    "ordered-imports": [
-      true
-    ],
-    "curly": [
-      true,
-      "ignore-same-line"
-    ],
-    "switch-default": true,
-    "cyclomatic-complexity": [
-      true,
-      40
-    ],
-    "no-invalid-this": [
-      true
-    ],
-    "no-magic-numbers": false,
-    "ban-types": [
-      true,
-      [
-        "Object",
-        "Use {} instead."
-      ]
-    ],
-    "no-submodule-imports": [
-      true,
-      "app",
-      "uuid/v4",
-      "@fortawesome",
-      "lodash",
-      "redux-saga/effects",
-      "antd",
-      "@lenovo"
-    ],
-    "ter-arrow-body-style": [
-      true
-    ],
-    "ter-no-irregular-whitespace": [
-      true
-    ],
-    "ter-no-sparse-arrays": [
-      true
-    ],
-    "ter-func-call-spacing": [
-      true,
-      "never"
-    ],
-    "no-multi-spaces": [
-      true
-    ],
-    "array-bracket-spacing": [
-      false
-    ],
-    "brace-style": [
-      true,
-      "1tbs",
-      {
-        "allowSingleLine": true
-      }
-    ],
-    "object-curly-spacing": [
-      true,
-      "always"
-    ],
-    "space-in-parens": [
-      true,
-      "never"
-    ],
-    "jsx-boolean-value": [
-      true,
-      "never"
-    ],
-    "jsx-no-multiline-js": false,
-    "jsx-alignment": false,
-    "jsx-space-before-trailing-slash": true,
-    "interface-name": false,
-    "binary-expression-operand-order": true
+    ]
   },
   "rulesDirectory": []
 }
