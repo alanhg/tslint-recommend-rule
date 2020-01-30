@@ -3,7 +3,8 @@
     "tslint:latest",
     "tslint-react",
     "tslint-eslint-rules",
-    "tslint-config-prettier"
+    "tslint-config-prettier",
+    "tslint-no-commented-code-rule"
   ],
   "jsRules": {
     "object-literal-sort-keys": false
@@ -77,6 +78,13 @@
     ],
     "no-arg": true,
     "no-bitwise": false,
+    "no-commented-code": [
+      true,
+      {
+        "minLineCount": 2,
+        "ignoredCommentRegex": "^(\\w+$|TODO|FIXME)"
+      }
+    ],
     "no-consecutive-blank-lines": [
       true
     ],
