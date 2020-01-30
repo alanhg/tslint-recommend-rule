@@ -27,12 +27,18 @@
       "path": "./node_modules/cz-conventional-changelog"
     }
   },
+  "dependencies": {
+    "tslint": "5.18.0",
+    "tslint-react": "4.0.0",
+    "tslint-eslint-rules": "5.4.0",
+    "tslint-config-prettier": "1.15.0",
+    "tslint-no-commented-code-rule": "^0.1.0"
+  },
   "devDependencies": {
     "@commitlint/config-conventional": "^8.3.4",
     "commitizen": "^4.0.3",
     "commitlint": "^8.3.5",
     "husky": "^4.0.10",
-    "standard-version": "^7.0.1",
-    "tslint-no-commented-code-rule": "^0.1.0"
+    "standard-version": "^7.0.1"
   }
 }
