@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.1](https://github.com/alanhg/tslint-recommend-rule/compare/v1.2.0...v1.2.1) (2020-01-30)
+
+
+### Bug Fixes
+
+* **rule dependency:** add relevant rule dependency ([bb642ea](https://github.com/alanhg/tslint-recommend-rule/commit/bb642ea2d250542ff13a8b47187e65b2a6cae9ec))
+
 ## [1.2.0](https://github.com/alanhg/tslint-recommend-rule/compare/v1.1.1...v1.2.0) (2020-01-30)
 
 
