@@ -20,6 +20,7 @@
     "arrow-return-shorthand": [
       true
     ],
+    "await-promise": true,
     "ban-types": [
       true,
       [
@@ -77,6 +78,7 @@
       "variables-before-functions"
     ],
     "no-arg": true,
+    "no-async-without-await": true,
     "no-bitwise": false,
     "no-commented-code": [
       true,
@@ -99,9 +101,11 @@
     ],
     "no-construct": true,
     "no-debugger": true,
+    "no-duplicate-switch-case": true,
     "no-duplicate-variable": true,
     "no-empty": false,
     "no-eval": true,
+    "no-for-in-array": true,
     "no-implicit-dependencies": [
       false,
       "dev"
@@ -143,6 +147,7 @@
       true
     ],
     "prefer-const": true,
+    "prefer-function-over-method": true,
     "quotemark": [
       true,
       "single",
