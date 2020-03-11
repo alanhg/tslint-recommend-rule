@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.4.1](https://github.com/alanhg/tslint-recommend-rule/compare/v1.4.0...v1.4.1) (2020-03-11)
+
+
+### Bug Fixes
+
+* **style:** add tslint-lines-between-class-members ([b1a61fe](https://github.com/alanhg/tslint-recommend-rule/commit/b1a61fef70b964d5195939c2f91497cd8c84bea5))
+
 ## [1.4.0](https://github.com/alanhg/tslint-recommend-rule/compare/v1.3.0...v1.4.0) (2020-03-11)
 
 
