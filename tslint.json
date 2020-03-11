@@ -67,6 +67,7 @@
     "jsx-no-multiline-js": false,
     "jsx-space-before-trailing-slash": true,
     "label-position": true,
+    "lines-between-class-members": true,
     "max-line-length": [
       true,
       180
