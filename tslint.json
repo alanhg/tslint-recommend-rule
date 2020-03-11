@@ -226,5 +226,7 @@
       "check-preblock"
     ]
   },
-  "rulesDirectory": []
+  "rulesDirectory": [
+    "node_modules/tslint-lines-between-class-members"
+  ]
 }
