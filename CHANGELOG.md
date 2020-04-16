@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.4.4](https://github.com/alanhg/tslint-recommend-rule/compare/v1.4.3...v1.4.4) (2020-04-16)
+
+
+### Bug Fixes
+
+* **console:** allow log level for console ([d5cdbeb](https://github.com/alanhg/tslint-recommend-rule/commit/d5cdbeb50d5f719239cc002c220eb51c7ae7611a))
+
 ### [1.4.3](https://github.com/alanhg/tslint-recommend-rule/compare/v1.4.2...v1.4.3) (2020-03-11)
 
 ### [1.4.2](https://github.com/alanhg/tslint-recommend-rule/compare/v1.4.1...v1.4.2) (2020-03-11)
