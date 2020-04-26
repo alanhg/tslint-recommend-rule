@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.4.7](https://github.com/alanhg/tslint-recommend-rule/compare/v1.4.6...v1.4.7) (2020-04-26)
+
+
+### Bug Fixes
+
+* **member-ordering:** update ([d9c7063](https://github.com/alanhg/tslint-recommend-rule/commit/d9c706383d42501775c68c74bc15fac5d2d055c7))
+
 ### [1.4.6](https://github.com/alanhg/tslint-recommend-rule/compare/v1.4.5...v1.4.6) (2020-04-26)
 
 
